@@ -17,8 +17,8 @@
   --clr-dark: #252525;
   --clr-accent: #e0167b;
   
-  --fs-h1: 2.5rem;
-  --fs-h2: 1.8rem;
+  --fs-h1: 2rem;
+  --fs-h2: 1.65rem;
   --fs-h3: 1.05rem;
   --fs-body: 0.90rem;
   --fs-small: 0.7rem;
@@ -26,8 +26,8 @@
 
 @media (min-width: 800px) {
   :root {
-    --fs-h1: 3rem;
-    --fs-h2: 2rem;
+    --fs-h1: 2.5rem;
+    --fs-h2: 1.75rem;
     --fs-h3: 1.115rem;
     --fs-body: 0.95rem;
     --fs-small: 0.75rem;
@@ -119,7 +119,7 @@ a {
 .intro {
   max-width: 1200px;
   padding: 100px;
-  height: 100vh;
+  margin-bottom: 30px;
   letter-spacing: 1.5px;
   transition: all 0.3s;
 }
@@ -148,7 +148,7 @@ a {
 .section {
   display: flex;
   justify-content: center;
-  padding: 50px 80px;
+  padding: 40px 80px;
 }
 .section__title {
   flex-shrink: 0;
@@ -170,7 +170,7 @@ a {
 /* ---------------------- MEDIA ---------------------- */
 @media screen and (max-width: 1600px){
   .section, .intro{
-    padding: 80px;
+    padding: 60px;
   }
   .footer {
     display: flex;
@@ -182,7 +182,10 @@ a {
 }
 @media screen and (max-width: 1024px){
   .section, .intro, .footer {
-    padding: 50px;
+    padding: 40px;
+  }
+  .intro {
+    margin-bottom: 10px;
   }
 
 }
