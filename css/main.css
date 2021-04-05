@@ -191,6 +191,12 @@ a {
 } */
 /* ---------------------- MEDIA ---------------------- */
 @media screen and (max-width: 1600px){
+  .highlight-ip-address{
+    display: flex;
+  }
+  .highlight-description {
+    width: 30%;
+  }
   .intro { 
     padding: 150px;
     margin-bottom: 120px;
@@ -208,6 +214,12 @@ a {
   }
 }
 @media screen and (max-width: 1024px){
+  .highlight-ip-address{
+    display: flex;
+  }
+  .highlight-description {
+    width: 30%;
+  }
   .intro { 
     padding: 80px;
     margin-bottom: 100px;
@@ -218,12 +230,12 @@ a {
   }
 }
 @media screen and (max-width: 768px) {
-  /* .section {
+  .highlight-ip-address{
     display: block;
-  } */
-  /* .section__content {
-    padding: 20px 0 0 40px;
-  } */
+  }
+  .highlight-description {
+    width: 100%;
+  }
   .footer {
     display: block;
     padding: 50px;
@@ -247,13 +259,15 @@ a {
 
 /* --------------- HIGHLIGHTs ---------------- */
 .highlight-ip-address {
-  display: flex;
+  /* display: flex; */
   justify-content: space-between;
 }
 .highlight-description {
-  width: 30%;
-  padding-left: 20px;
+  /* width: 30%; */
+  padding-left: 30px;
   text-align: right;
+  text-align: justify;
+  text-align-last: right;
 }
 .highlight-link {
   position: relative;
